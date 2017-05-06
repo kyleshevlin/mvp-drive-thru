@@ -1,0 +1,20 @@
+//////////////////////////////
+// Burger Inputs
+//////////////////////////////
+
+.burger_inputs {
+
+  &-options {
+    margin-top: -15px;
+    margin-bottom: 15px;
+
+    &-row {
+      margin-bottom: 5px;
+
+      label {
+        display: inline-block;
+        margin-right: 10px;
+      }
+    }
+  }
+}

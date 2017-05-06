@@ -1,0 +1,28 @@
+//////////////////////////////
+// Variables
+//////////////////////////////
+
+// Breakpoints
+$breakpoints: (
+  'alpha': (min-width: 481px),
+  'bravo': (min-width: 769px),
+  'charlie': (min-width: 1025px)
+);
+
+// Colors
+$c-teal: #11d1a4;
+$c-dark-teal: #116c57;
+$c-navy: #182229;
+$c-red: #e93b41;
+$c-white: #fff;
+$c-gray: #ddd;
+$c-light-gray: #f1f1f1;
+$c-black: #222;
+
+// Font Stacks
+$f-open: 'Open Sans', sans-serif;
+
+// Z-indexes
+$z-indexes: (
+  'default': 'auto'
+);

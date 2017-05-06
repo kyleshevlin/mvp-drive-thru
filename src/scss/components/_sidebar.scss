@@ -1,0 +1,14 @@
+//////////////////////////////
+// Sidebar
+//////////////////////////////
+
+.sidebar {
+  width: 25%;
+  background-color: $c-navy;
+  color: $c-white;
+
+  &-heading {
+    padding: 30px;
+    margin: 0;
+  }
+}

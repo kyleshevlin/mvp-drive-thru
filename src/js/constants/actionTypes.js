@@ -1,0 +1,4 @@
+export const CREATE_ORDER = 'CREATE_ORDER'
+export const COMPLETE_ORDER = 'COMPLETE_ORDER'
+export const CANCEL_ORDER = 'CANCEL_ORDER'
+export const UPDATE_ORDER = 'UPDATE_ORDER'

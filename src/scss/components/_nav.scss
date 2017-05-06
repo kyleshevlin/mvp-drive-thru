@@ -1,0 +1,27 @@
+//////////////////////////////
+// Nav
+//////////////////////////////
+
+.nav {
+
+  &-item {
+
+    &.is-active a {
+      background-color: $c-teal;
+    }
+
+    a {
+      display: block;
+      color: $c-white;
+      font-size: 14px;
+      text-transform: uppercase;
+      padding: 15px 30px;
+      border-bottom: 1px solid rgba($c-light-gray, .35);
+      transition: background-color .3s ease;
+
+      &:hover {
+        color: $c-light-gray;
+      }
+    }
+  }
+}

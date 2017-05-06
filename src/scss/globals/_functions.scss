@@ -1,0 +1,22 @@
+//////////////////////////////
+// Functions
+//////////////////////////////
+
+// White with alpha
+@function white($opacity: 1) {
+  @return rgba($c-white, $opacity);
+}
+
+// Black with alpha
+@function black($opacity: 1) {
+  @return rgba($c-black, $opacity);
+}
+
+// Z-indexes
+@function zi($index) {
+  @if map-has-key($z-indexes, $index) {
+    @return map-get($z-indexes, $index);
+  } @else {
+    @warn "The index '#{$index}' does not exist in the $z-indexes map.";
+  }
+}

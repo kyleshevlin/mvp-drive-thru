@@ -1,0 +1,23 @@
+//////////////////////////////
+// Tags
+//////////////////////////////
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: $f-open;
+  font-size: 100%;
+}
+
+body {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}

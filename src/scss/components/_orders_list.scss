@@ -1,0 +1,18 @@
+//////////////////////////////
+// Orders List
+//////////////////////////////
+
+.orders_list {
+  list-style: decimal;
+
+  &-item {
+    margin-bottom: 15px;
+
+    &-burger {
+
+      &-details {
+        padding-left: 15px;
+      }
+    }
+  }
+}
